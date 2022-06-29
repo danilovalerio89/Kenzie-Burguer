@@ -1,0 +1,52 @@
+.button-search {
+  position: absolute;
+  width: 107px;
+  height: 40px;
+  right: 10px;
+  top: 10px;
+  border-radius: 8px;
+  border: 2px solid #27ae60;
+  background: #27ae60;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+.button-add {
+  width: 107px;
+  height: 40px;
+  right: 10px;
+  top: 10px;
+  border-radius: 8px;
+  border: 2px solid #27ae60;
+  background: #27ae60;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  margin-left: 19px;
+}
+.button-remove {
+  background-color: #f5f5f5;
+  border: none;
+  height: 20px;
+  margin: 15px 10px 0 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.button_remove_all {
+  margin: 0 auto 20px;
+  width: 80%;
+  height: 60px;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  line-height: 19px;
+  color: #828282;
+}
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.section_products {
+  height: 365px;
+  overflow-x: auto;
+}
+@media (min-width: 768px) {
+  .section_products {
+    margin: 0 auto;
+    max-width: 770px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1024px) {
+  .section_products {
+    margin: 0;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}

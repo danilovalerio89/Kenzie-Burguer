@@ -1,0 +1,9 @@
+@media (min-width: 1344px) {
+  .main_container {
+    max-width: 1344px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
